@@ -3,8 +3,8 @@ def oxford_comma(array)
     array.join
   elsif array.length == 2 
   else 
-  last = array.last
-  array.pop
-  "#{array.join(", ")}, and #{last}"
+    last = array.last
+    array.pop
+    "#{array.join(", ")}, and #{last}"
 end
 end
